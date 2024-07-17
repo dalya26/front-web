@@ -1,0 +1,312 @@
+/*!
+
+=========================================================
+* Black Dashboard React v1.2.2
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/black-dashboard-react
+* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://github.com/creativetimofficial/black-dashboard-react/blob/master/LICENSE.md)
+
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+*/
+.tim-row {
+  margin-bottom: 20px;
+}
+
+.tim-white-buttons {
+  background-color: #777777;
+}
+
+.typography-line {
+  padding-left: 25%;
+  margin-bottom: 35px;
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.typography-line span {
+  bottom: 10px;
+  color: #f9fafb;
+  display: block;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+  left: 0;
+  position: absolute;
+  width: 260px;
+  text-transform: none;
+}
+
+.tim-row {
+  padding-top: 60px;
+}
+
+.tim-row h3 {
+  margin-top: 0;
+}
+
+.offline-doc .page-header {
+  display: flex;
+  align-items: center;
+}
+
+.offline-doc .footer {
+  position: absolute;
+  width: 100%;
+  background: transparent;
+  bottom: 0;
+  color: #fff;
+  z-index: 1;
+  padding-left: 0;
+}
+
+@media all and (min-width: 992px) {
+  .sidebar .nav > li.active-pro {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+  }
+}
+
+.card.card-upgrade .card-category {
+  max-width: 530px;
+  margin: 0 auto;
+}
+
+.offline-doc .page-header {
+  min-height: 100vh;
+  max-height: 999px;
+  padding: 0;
+  color: #ffffff;
+  position: relative;
+}
+.offline-doc .page-header .page-header-image {
+  position: absolute;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.offline-doc .page-header .content-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+  padding: 0 15px;
+  width: 100%;
+  max-width: 880px;
+}
+.offline-doc .page-header footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.offline-doc .page-header .container {
+  height: 100%;
+  z-index: 1;
+}
+.offline-doc .page-header .category,
+.offline-doc .page-header .description {
+  color: rgba(255, 255, 255, 0.8);
+}
+.offline-doc .page-header.page-header-small {
+  min-height: 60vh;
+  max-height: 440px;
+}
+.offline-doc .page-header.page-header-mini {
+  min-height: 40vh;
+  max-height: 340px;
+}
+.offline-doc .page-header .title {
+  margin-bottom: 15px;
+}
+.offline-doc .page-header .title + h4 {
+  margin-top: 10px;
+}
+.offline-doc .page-header:after,
+.offline-doc .page-header:before {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  left: 0;
+  top: 0;
+  content: "";
+}
+.offline-doc .page-header:before {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.card-color{
+  color: '#40B4C0';
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.general{
+  height: 100vh; 
+  width: 100vw;
+  background-color: #676AD3;
+}
+
+.logo-img-w{
+  width: 25%;
+  height: 25%;
+}
+
+.type-letter{
+  font-family: monospace;
+  font-weight: bold;
+  font-style: oblique;
+  color: #777777;
+  top: 5%;
+  left: 10%;
+}
+
+.title-letter{
+  text-align: center;
+  align-items: center;
+  margin-top: 30%;
+}
+
+.footer-card{
+  align-items: center;
+  color: #ffffff;
+  margin-top: 30%;
+}
+
+.logo-img-h{
+  width: 5rem;
+  height: 4rem;
+}
+
+.button-style-color{
+  border-radius: 2cap;
+}
+
+.items-modal-log{
+  left: 2em;
+}
+
+.div-btn-post{
+  align-items: center;
+}
+.btn-post{
+  border-radius: 3cap;
+  color: #40B4C0;
+  outline: #40B4C0;
+}
+
+.img-post-view{
+  width: 20%;
+  height: 20%;
+}
+
+.span-alert{
+  color: darkred;
+}
+
+.text-tarea-post{
+  width: 15;
+  height: 5rem;
+}
+
+.btn-options-edup{
+  text-align: right;
+}
+
+.container-boder{
+  border-radius: 5%;
+  border-color: #40B4C0;
+  background-color: #f7f5f5;
+}
+
+.txt-coment-u{
+  color: #40B4C0;
+}
+
+.btn-send-class{
+  border-radius: 0%;
+  
+}
+
+.btl-edit-up{
+  align-items: center;
+}
+
+.card-img{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card-coments{
+  background-color: #7d80d6;
+}
+
+.user-list {
+  display: flex;
+ 
+  gap: 10px; /* Espacio entre tarjetas */
+  flex-direction: column;
+}
+
+.coment-card-style{
+  border-radius: 5px;
+  background-color: #363652;
+}
+.text-comments{
+  margin-left: 10px;
+}
+.text-comment-card{
+  margin-top: 10px;
+}
+
+.text-like{
+  margin-top: 7px;
+  margin-left: 3px;
+}
+.like{
+  margin: 10px;
+}
+
+.input-iduser{
+  margin-left: 15px;
+}
+.input-comment{
+  margin-left: 50px;
+}
+
+.text-color-comment{
+  color: #fff;
+}
+
+.color-block{
+  text-align: center;
+  size: 10px;
+}
+
+.letter-block{
+  text-align: center;
+  font: 1em sans-serif;
+}
+
+.text-user{
+  text-align: left;
+}
